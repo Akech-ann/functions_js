@@ -14,6 +14,7 @@ let car1= new Car("BMW","legacy",2023,true)
 console.log(car1);
 car1.toggleAvailability()
 console.log(car1);
+
 class Rental{
     constructor(car,renterName,rentalStartDate,rentalEndDate){
         this.car=car;
@@ -32,6 +33,7 @@ class Rental{
 let car= new Car("Hanry","convo","2023")
 let rental= new Rental(car,"Montyann","2023-03-01","2023-03-05")
 console.log(rental.calculateRentalDuration());
+
 class MotorCar{
     constructor(make,model,year,isAvailable){
         this.make=make
